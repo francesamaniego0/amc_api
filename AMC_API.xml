@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AMC_API</name>
+    </assembly>
+    <members>
+        <member name="M:AMC_API.Controllers.DashboardController.GetWebApplicationHealthCheckDashboardByDate(AMC.BOL.Parameter.HealthDataParameterByDate)">
+            <remarks>
+            Get Web Application the system
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.DashboardController.GetWebsiteHealthCheckDashboardByDate(AMC.BOL.Parameter.HealthDataParameterByDate)">
+            <remarks>
+            Get Web Application the system
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.GetWebApplicationCheck(AMC.Object.Parameter.GetWebApplicationCheckParameter)">
+            <remarks>
+            Get all product from the system
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.CreateWebApplicationCheck(AMC.BOL.Parameter.WebApplicationCheckParameter)">
+            <remarks>
+            Submit Web Application Health Check
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.CreateWebsiteCheck(AMC.BOL.Parameter.WebsiteCheckParameter)">
+            <remarks>
+            Submit Website Health Check
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.GetWebApplicationHealthCheck(AMC.BOL.Parameter.HealthDataParameter)">
+            <remarks>
+            Get Web Application the system
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.GetWebsiteHealthCheck(AMC.BOL.Parameter.HealthDataParameter)">
+            <remarks>
+            Get Website the system
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.ProductController.CreateProduct(AMC.BOL.Parameter.AddProductParameter)">
+            <remarks>
+            Register new single product
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.ProductController.UpdateProduct(AMC.Object.Parameter.UpdateProductParameter)">
+            <remarks>
+            Update existing single product
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.ProductController.TrashProduct(AMC.Object.Common.IdParameter)">
+            <remarks>
+            Soft Delete existing single product
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.ProductController.GetProducts(AMC.Object.Parameter.GetProductParameter)">
+            <remarks>
+            Get all product from the system
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.ProductController.GetProductById(AMC.Object.Common.IdParameter)">
+            <remarks>
+            Get all product from the system
+            </remarks>
+        </member>
+    </members>
+</doc>

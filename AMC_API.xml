@@ -44,7 +44,7 @@
             Register new single product
             </remarks>
         </member>
-        <member name="M:AMC_API.Controllers.ProductController.UpdateProduct(AMC.Object.Parameter.UpdateProductParameter)">
+        <member name="M:AMC_API.Controllers.ProductController.UpdateProduct(AMC.BOL.Parameter.EditProductParameter)">
             <remarks>
             Update existing single product
             </remarks>

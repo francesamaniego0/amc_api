@@ -14,11 +14,6 @@
             Get Web Application the system
             </remarks>
         </member>
-        <member name="M:AMC_API.Controllers.HealthCheckController.GetWebApplicationCheck(AMC.Object.Parameter.GetWebApplicationCheckParameter)">
-            <remarks>
-            Get all product from the system
-            </remarks>
-        </member>
         <member name="M:AMC_API.Controllers.HealthCheckController.CreateWebApplicationCheck(AMC.BOL.Parameter.WebApplicationCheckParameter)">
             <remarks>
             Submit Web Application Health Check
@@ -39,6 +34,26 @@
             Get Website the system
             </remarks>
         </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.TrashWebsiteHealthCheck(AMC.Object.Common.IdParameter)">
+            <remarks>
+            Soft Delete existing single website healthCheck
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.TrashMultipleWebsiteHealthCheck(System.Collections.Generic.List{AMC.Object.Common.IdParameter})">
+            <remarks>
+            Soft Delete existing multiple website healthCheck
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.TrashWebApplicationHealthCheck(AMC.Object.Common.IdParameter)">
+            <remarks>
+            Soft Delete existing single web application healthCheck
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.HealthCheckController.TrashMultipleWebApplicationHealthCheck(System.Collections.Generic.List{AMC.Object.Common.IdParameter})">
+            <remarks>
+            Soft Delete existing multiple web application healthCheck
+            </remarks>
+        </member>
         <member name="M:AMC_API.Controllers.ProductController.CreateProduct(AMC.BOL.Parameter.AddProductParameter)">
             <remarks>
             Register new single product
@@ -52,6 +67,11 @@
         <member name="M:AMC_API.Controllers.ProductController.TrashProduct(AMC.Object.Common.IdParameter)">
             <remarks>
             Soft Delete existing single product
+            </remarks>
+        </member>
+        <member name="M:AMC_API.Controllers.ProductController.TrashMultipleProduct(System.Collections.Generic.List{AMC.Object.Common.IdParameter})">
+            <remarks>
+            Soft Delete existing multiple product
             </remarks>
         </member>
         <member name="M:AMC_API.Controllers.ProductController.GetProducts(AMC.Object.Parameter.GetProductParameter)">

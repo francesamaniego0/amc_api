@@ -918,6 +918,14 @@
           }
         }
       },
+      "System.Linq.Dynamic.Core/1.7.2": {
+        "runtime": {
+          "lib/net8.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.7.2.0",
+            "fileVersion": "1.7.2.0"
+          }
+        }
+      },
       "System.Memory/4.5.4": {},
       "System.Memory.Data/1.0.2": {
         "dependencies": {
@@ -1115,7 +1123,8 @@
         "dependencies": {
           "AMC.BOL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.12",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.12"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.12",
+          "System.Linq.Dynamic.Core": "1.7.2"
         },
         "runtime": {
           "AMC.DAL.dll": {
@@ -1810,6 +1819,13 @@
       "sha512": "sha512-LyvCiOzotNkRgn4wtksKjp/KEljoNtQpuAdunh6PipeyRP/qIdzmeeIjFLUaknkk237eMuYYi2YbkG0pbFBpDg==",
       "path": "system.io.pipelines/9.0.12",
       "hashPath": "system.io.pipelines.9.0.12.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-11SGBy8DCywOVElSs2J+Cd4WFHruFrBnaaQ86q2HWHBGcCAQDLnbA0ivpFvMeXGPqcEPE+Q3HZtXaXN4F8JLQg==",
+      "path": "system.linq.dynamic.core/1.7.2",
+      "hashPath": "system.linq.dynamic.core.1.7.2.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",

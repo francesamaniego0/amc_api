@@ -84,5 +84,11 @@
             Get all product from the system
             </remarks>
         </member>
+        <member name="M:AMC_API.Controllers.ProductController.GetMonitoredSites">
+            <summary>
+            GET api/UptimeCheck/GetMonitoredSites
+            Sites eligible for monitoring (active, non-deleted, has a URL).
+            </summary>
+        </member>
     </members>
 </doc>
